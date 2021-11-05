@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+background: url('https://t4.ftcdn.net/jpg/01/98/49/61/240_F_198496190_TRgMtAnmx20H51DgZdCX5zgphwXynuQ7.jpg') no-repeat center center fixed;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clock{
+    width: 550px;
+    height:150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.clock div{
+background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.47 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 14px );
+    height:80%;
+    width:130px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color:#202020;
+    border-radius:50%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+.clock span{
+    font-weight:border;
+    font-size: 46px;
+    color: #fff;
+}
